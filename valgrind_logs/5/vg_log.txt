@@ -1,0 +1,15 @@
+==16518== Memcheck, a memory error detector
+==16518== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16518== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16518== Command: ./a2 tests/05/configs/game_config.txt tests/05/configs/message_config.txt
+==16518== Parent PID: 16300
+==16518== 
+==16518== 
+==16518== HEAP SUMMARY:
+==16518==     in use at exit: 0 bytes in 0 blocks
+==16518==   total heap usage: 3,499 allocs, 3,499 frees, 342,736 bytes allocated
+==16518== 
+==16518== All heap blocks were freed -- no leaks are possible
+==16518== 
+==16518== For lists of detected and suppressed errors, rerun with: -s
+==16518== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
