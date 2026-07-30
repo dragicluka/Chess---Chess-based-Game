@@ -1,0 +1,27 @@
+GAME
+
+turns: 50
+mana: 10/100
+
+White (Elo = 1000)
+{
+  P, P, P, P, P, P, P, P
+  R, N, B, Q, K, B, N, R
+}
+
+Black (Elo = 900)
+{
+  P, P, P, P, P, P, P, P
+  R, N, B, Q, K, B, N, R
+}
+
+Squares
+{
+  B2:
+    - name: BOOST
+  D6:
+    - name: MANA
+  C4:
+    - name: SPAWN
+    - list: FREEZE, SHIELD, TP, 2xLUKE, CLOAK
+}
