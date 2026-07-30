@@ -1,0 +1,17 @@
+This was a great match! Well done to you both!
+Good job to Black for winning in 5 turns.
+
+The new Elo scores are:
+ - White: 984
+ - Black: 1016
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+
+                   Move History
+1  | g4       | e5       |
+2  | bg2      | qh4      |
+3  | Sg2      | bxb7     |
+4  | nc3      | bf3      |
+5  | Sf2      | qxe1     |
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~

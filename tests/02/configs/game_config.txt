@@ -1,0 +1,20 @@
+GAME
+
+turns: 10
+mana: 10/100
+
+White (Elo = 1000)
+{
+  8xP
+  7xP, K
+}
+
+Black (Elo = 900)
+{
+  8xP
+  7xP, K
+}
+
+Squares
+{
+}

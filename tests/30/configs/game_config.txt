@@ -1,0 +1,22 @@
+GAME
+
+turns: 10000
+mana: 0/10000
+
+White (Elo = 1000)
+{
+  5xP, PSTB, PNRV, P
+  R, N, B, Q, K, BPRC, N, R
+}
+
+Black (Elo = 1000)
+{
+  8xP
+  R, N, B, Q, K, B, N, R
+}
+
+Squares
+{
+  G4:
+    - name: MANA
+}

@@ -1,0 +1,29 @@
+GAME
+
+turns: 10000
+mana: 1000/10000
+
+White (Elo = 1000)
+{
+  8xP
+  K, Q, 6xP
+}
+
+Black (Elo = 1000)
+{
+  8xP
+  K, 3xP, Q, 3xP
+}
+
+Squares
+{
+  C4:
+    - name: SPAWN
+    - list: SHIELD
+  E4:
+    - name: SPAWN
+    - list: CLOAK
+  G4:
+    - name: SPAWN
+    - list: REPEL
+}

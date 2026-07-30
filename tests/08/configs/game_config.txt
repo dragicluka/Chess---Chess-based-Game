@@ -1,0 +1,27 @@
+GAME
+
+turns: 100
+mana: 1/100
+
+White (Elo = 1000)
+{
+  PEXP, PNRV, PSTB, PIPT, PGLD, 3xP
+  KARC, QHNGR, QFLP, BCLR, RPNT, N, B, Q
+}
+
+Black (Elo = 900)
+{
+  PEXP, PNRV, PSTB, PIPT, PGLD, 3xP
+  KARC, QJMP, BPRC, NJMP, RINV, NICE, B, Q
+}
+
+Squares
+{
+  B3:
+    - name: BOOST
+  D6:
+    - name: MANA
+  C4:
+    - name: SPAWN
+    - list: FREEZE, SHIELD, TP, LUKE, CLOAK
+}

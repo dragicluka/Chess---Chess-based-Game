@@ -1,0 +1,94 @@
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+>                 Welcome To Chess++
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> Where do you want to place KARC (1 remaining)?
+? White > 
+< auto
+> Where do you want to place KARC (1 remaining)?
+? Black > 
+< auto
+>                     Chessboard
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> Turn 1 / 10
+> 
+> Black mana: 10/100
+> 
+> 8 [48;5;223m [1;38;5;16m♚ka[0m[48;5;94m [1;38;5;16m♛qj[0m[48;5;223m [1;38;5;16m♝bp[0m[48;5;94m [1;38;5;16m♞nj[0m[48;5;223m [1;38;5;16m♜ri[0m[48;5;94m [1;38;5;16m♞ni[0m[48;5;223m [1;38;5;16m♝b [0m[48;5;94m [1;38;5;16m♛q [0m
+> 7 [48;5;94m [1;38;5;16m♟p![0m[48;5;223m [1;38;5;16m♟p-[0m[48;5;94m [1;38;5;16m♟p+[0m[48;5;223m [1;38;5;16m♟pi[0m[48;5;94m [1;38;5;16m♟pg[0m[48;5;223m [1;38;5;16m♟p [0m[48;5;94m [1;38;5;16m♟p [0m[48;5;223m [1;38;5;16m♟p [0m
+> 6 [48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m
+> 5 [48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m
+> 4 [48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m
+> 3 [48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m[48;5;94m    [0m[48;5;223m    [0m
+> 2 [48;5;223m [1;38;5;247m♟P![0m[48;5;94m [1;38;5;247m♟P-[0m[48;5;223m [1;38;5;247m♟P+[0m[48;5;94m [1;38;5;247m♟Pi[0m[48;5;223m [1;38;5;247m♟Pg[0m[48;5;94m [1;38;5;247m♟P [0m[48;5;223m [1;38;5;247m♟P [0m[48;5;94m [1;38;5;247m♟P [0m
+> 1 [48;5;94m [1;38;5;247m♚Ka[0m[48;5;223m [1;38;5;247m♛Qh[0m[48;5;94m [1;38;5;247m♛Qf[0m[48;5;223m [1;38;5;247m♝Bc[0m[48;5;94m [1;38;5;247m♜Rp[0m[48;5;223m [1;38;5;247m♞N [0m[48;5;94m [1;38;5;247m♝B [0m[48;5;223m [1;38;5;247m♛Q [0m
+>     A   B   C   D   E   F   G   H
+> 
+> White mana: 11/100
+> ~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+> 
+? White > 
+< help
+> === Commands ============================================================================
+> - help
+>     Prints this help text.
+> 
+> - quit
+>     Terminates the game.
+> 
+> - board
+>     Toggles the board printing.
+> 
+> - info <PIECE_ID>
+>     Prints piece information.
+>     <PIECE_ID>: The piece ID to be explained.
+> 
+> - history
+>     Prints the move history in modified chess notation.
+> 
+> - prison <PLAYER_ID>
+>     Lists pieces captured by the specified player.
+>     <PLAYER_ID>: [White/Black]
+> 
+> - pass
+>     Ends the current player's turn after a move or special ability.
+> 
+> - draw
+>     Offers a draw to the opponent.
+> 
+> - resign
+>     Resigns the game (loss).
+> 
+> - move <MOVE>
+>     Moves a piece using simplified chess notation.
+>     <MOVE>: a move in the simplified chess notation format.
+> 
+> - use <SQUARE> [...]
+>     Uses a potion.
+>     <SQUARE>: The location of the piece, whose potion will be used.
+>     [...]: Variable amount of parameters depending on the potion.
+> 
+> - special <SQUARE> [...]
+>     Activates a piece's special ability.
+>     <SQUARE>: The square where the special piece is located.
+>     [...]: Variable parameters depending on the piece (use info for a piece by piece description).
+> 
+> =========================================================================================
+> 
+? White > 
+< info K
+> === Info =========================================
+> [K | ♚k] King
+> Description: Can move one square in any direction.
+> Special: None
+> ==================================================
+> 
+? White > 
+< info QHNGR
+> === Info =========================================
+> [QHNGR | ♛qh] Hungry Queen
+> Description: Friendly pieces can also be captured.
+> Special: None
+> ==================================================
+> 
+? White > 
+< quit

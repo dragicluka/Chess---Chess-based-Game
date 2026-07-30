@@ -1,0 +1,17 @@
+Oh I see one of you couldn't take the pressure...
+Well done to White for making Black resign in 5 turns.
+
+The new Elo scores are:
+ - White: 1011
+ - Black: 888
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~
+
+                   Move History
+1  | c4       | e5       |
+2  | d4       | exd4     |
+3  | *c4      | rxe2     |
+4  | bxe2     | nb5      |
+5  | c5       |          |
+
+~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~

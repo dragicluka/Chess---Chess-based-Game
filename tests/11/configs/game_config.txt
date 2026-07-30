@@ -1,0 +1,32 @@
+GAME
+
+turns: 10000
+mana: 1000/10000
+
+White (Elo = 1000)
+{
+  8xP
+  K, Q, 6xP
+}
+
+Black (Elo = 1000)
+{
+  8xP
+  K, 3xP, Q, 3xP
+}
+
+Squares
+{
+  C4:
+    - name: SPAWN
+    - list: TP
+  D4:
+    - name: SPAWN
+    - list: FREEZE
+  D5:
+    - name: SPAWN
+    - list: LUKE
+  E5:
+    - name: SPAWN
+    - list: EVENODD
+}

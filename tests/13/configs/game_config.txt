@@ -1,0 +1,21 @@
+GAME
+
+turns: 10000
+mana: 100/10000
+
+White (Elo = 1000)
+{
+  PIPT, 5xP, PIPT, PIPT
+  R, N, B, Q, K, N, B, R
+}
+
+Black (Elo = 900)
+{
+  PIPT, P, PIPT, 4xP, PIPT
+  R, N, B, R, R, N, Q, K
+}
+
+Squares
+{
+  
+}
